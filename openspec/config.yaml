@@ -1,0 +1,10 @@
+schema: spec-driven
+
+context: |
+  Monorepo full-stack del máster AI4Devs.
+  Backend: AdonisJS 7 (TypeScript) + Lucid + SQLite + VineJS + @adonisjs/auth (access tokens).
+  Frontend: React 19 + Vite + React Router + Tailwind v4 + shadcn/ui.
+  Convenciones: lógica en controllers (no en routes), validación con VineJS,
+  salida vía transformers, subpath imports (#controllers/*, #models/*).
+  Rutas bajo /api/v1; las protegidas usan middleware.auth().
+  Usamos conventional commits.
