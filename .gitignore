@@ -1,0 +1,13 @@
+node_modules
+.DS_Store
+*.log
+
+# Backend
+backend/.env
+backend/tmp
+backend/build
+backend/*.sqlite3
+
+# Frontend
+frontend/.env
+frontend/dist
