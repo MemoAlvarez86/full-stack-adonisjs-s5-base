@@ -69,9 +69,3 @@ Flujo spec-driven con Claude Code o Cursor:
 La configuración vive en `openspec/config.yaml`. Los comandos y skills se
 instalaron en `.claude/` y `.cursor/`.
 
-## Para el formador
-
-Este repo representa el **estado de referencia tras las Sesiones 1 y 2**:
-starter kit de auth (S1, Ejercicio 1) + OpenSpec inicializado y endpoint
-`/health` (S2, Ejercicio 2). Es la base sobre la que se construyen las demos
-de S3 en adelante. Las ramas de alumno siguen el patrón `alumno/nombre-apellido`.
